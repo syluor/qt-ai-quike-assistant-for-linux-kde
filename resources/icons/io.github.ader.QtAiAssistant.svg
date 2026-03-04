@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f6f6d"/>
+      <stop offset="100%" stop-color="#2b4f81"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+  <rect x="24" y="28" width="80" height="60" rx="12" fill="#f4f7fb"/>
+  <circle cx="52" cy="58" r="6" fill="#1f6f6d"/>
+  <circle cx="76" cy="58" r="6" fill="#2b4f81"/>
+  <path d="M42 76c6 5 14 8 22 8s16-3 22-8" fill="none" stroke="#1f6f6d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M64 88l-10 16 10-7 10 7z" fill="#f4f7fb"/>
+  <!-- AI芯片图标 -->
+  <rect x="48" y="45" width="32" height="24" rx="4" fill="#4d78ff" opacity="0.3"/>
+  <circle cx="56" cy="54" r="3" fill="#4d78ff"/>
+  <circle cx="72" cy="54" r="3" fill="#4d78ff"/>
+  <circle cx="56" cy="63" r="3" fill="#4d78ff"/>
+  <circle cx="72" cy="63" r="3" fill="#4d78ff"/>
+  <circle cx="64" cy="58" r="2" fill="#9ec2ff"/>
+</svg>

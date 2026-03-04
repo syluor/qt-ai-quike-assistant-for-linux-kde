@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Qt AI Assistant
+Comment=AI chat assistant with conversation history
+Exec=qt-ai-assistant %u
+Icon=io.github.ader.QtAiAssistant
+Terminal=false
+Categories=Utility;Chat;
+Actions=Toggle;
+X-KDE-Shortcuts=none
+
+[Desktop Action Toggle]
+Name=Toggle Assistant
+Exec=qt-ai-assistant --toggle
+X-KDE-Shortcuts=Meta+Space
