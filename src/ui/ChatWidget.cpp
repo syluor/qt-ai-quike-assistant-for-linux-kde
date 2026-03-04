@@ -267,7 +267,7 @@ QWidget* ChatWidget::createBubble(const QString &text, bool isUser, bool isError
     label->setText(text);
     
     if (isUser) {
-        label->setStyleSheet("QLabel { background: #bcc2cc; color: #1f2227; font-size: 14px; padding: 11px 14px; border-radius: 10px; }");
+        label->setStyleSheet("QLabel { background: #2a2e36; color: #edf1fa; font-size: 14px; padding: 11px 14px; border-radius: 14px; }");
         h->addStretch(1);
         h->addWidget(label, 0, Qt::AlignRight);
     } else {
