@@ -1,4 +1,5 @@
 #include "ChatWidget.h"
+#include <QRegularExpression>
 #include <QScrollBar>
 #include <QHBoxLayout>
 #include <QKeyEvent>
@@ -210,8 +211,14 @@ void ChatWidget::onChunkReceived(const QString &chunk) {
         m_messagesLayout->addWidget(container);
     }
 
-    QString current = m_currentAssistantBubble->text();
-    m_currentAssistantBubble->setText(current + chunk);
+    QString current = m_currentAssistantBubble->property("rawMarkdown").toString();
+    current += chunk;
+    m_currentAssistantBubble->setProperty("rawMarkdown", current);
+
+    QString displayMarkdown = current;
+    displayMarkdown.replace(QRegularExpression("(?m)^#{1,3} "), "#### ");
+    m_currentAssistantBubble->setText(displayMarkdown);
+
     updateBubbleWidths();
     scrollToBottom();
 }
@@ -264,7 +271,15 @@ QWidget* ChatWidget::createBubble(const QString &text, bool isUser, bool isError
     if (!isUser) {
         label->setTextFormat(Qt::MarkdownText);
     }
-    label->setText(text);
+    
+    if (!isUser && !isSpecial) {
+        label->setProperty("rawMarkdown", text);
+        QString displayMarkdown = text;
+        displayMarkdown.replace(QRegularExpression("(?m)^#{1,3} "), "#### ");
+        label->setText(displayMarkdown);
+    } else {
+        label->setText(text);
+    }
     
     if (isUser) {
         label->setStyleSheet("QLabel { background: #2a2e36; color: #edf1fa; font-size: 14px; padding: 11px 14px; border-radius: 14px; }");
@@ -274,7 +289,7 @@ QWidget* ChatWidget::createBubble(const QString &text, bool isUser, bool isError
         if (isSpecial) {
             label->setStyleSheet("QLabel { background: transparent; color: #ff4d4d; font-size: 11px; font-style: italic; padding: 2px 2px; }");
         } else {
-            label->setStyleSheet("QLabel { background: transparent; color: #eef2fb; font-size: 14px; padding: 2px 2px; }");
+            label->setStyleSheet("QLabel { background: transparent; color: #eef2fb; font-size: 13px; padding: 2px 2px; }");
         }
         h->addWidget(label, 0, Qt::AlignLeft);
         h->addStretch(1);

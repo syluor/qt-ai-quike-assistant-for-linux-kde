@@ -12,4 +12,5 @@ X-KDE-Shortcuts=none
 [Desktop Action Toggle]
 Name=Toggle Assistant
 Exec=qt-ai-assistant --toggle
+StartupNotify=false
 X-KDE-Shortcuts=Meta+Space

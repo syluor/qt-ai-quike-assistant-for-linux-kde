@@ -263,7 +263,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -1153,8 +1153,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm"
-      binary: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm"
+      source: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi"
+      binary: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1164,13 +1164,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm'
+        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi'
         
-        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50334/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_50334.dir/build.make CMakeFiles/cmTC_50334.dir/build
-        gmake[1]: Entering directory '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm'
-        Building CXX object CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b539/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5b539.dir/build.make CMakeFiles/cmTC_5b539.dir/build
+        gmake[1]: Entering directory '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi'
+        Building CXX object CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1204,8 +1204,8 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_7433a.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7433a.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_50334
-        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50334.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_5b539
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b539.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper
@@ -1218,14 +1218,14 @@ events:
         gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50334' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50334.'
-         /usr/libexec/gcc/x86_64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjprFmu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50334 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5b539' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5b539.'
+         /usr/libexec/gcc/x86_64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxH7mOA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b539 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
         collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjprFmu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50334 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxH7mOA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b539 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o
         GNU ld version 2.45.1-4.fc43
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50334' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50334.'
-        /usr/lib64/ccache/c++  -v -Wl,-v CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_50334
-        gmake[1]: Leaving directory '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5b539' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5b539.'
+        /usr/lib64/ccache/c++  -v -Wl,-v CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5b539
+        gmake[1]: Leaving directory '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi'
         
       exitCode: 0
   -
@@ -1264,13 +1264,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm']
+        ignore line: [Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50334/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_50334.dir/build.make CMakeFiles/cmTC_50334.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-8cx4Cm']
-        ignore line: [Building CXX object CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b539/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5b539.dir/build.make CMakeFiles/cmTC_5b539.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-R16uzi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1304,8 +1304,8 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_7433a.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7433a.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_50334]
-        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50334.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_5b539]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b539.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper]
@@ -1318,13 +1318,13 @@ events:
         ignore line: [gcc version 15.2.1 20260123 (Red Hat 15.2.1-7) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/15/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/15/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50334' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50334.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjprFmu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50334 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5b539' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5b539.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/15/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxH7mOA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b539 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccjprFmu.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccxH7mOA.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1339,7 +1339,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_50334] ==> ignore
+          arg [cmTC_5b539] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o]
@@ -1351,7 +1351,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1362,7 +1362,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/15/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/15/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
         ignore line: [collect2 version 15.2.1 20260123 (Red Hat 15.2.1-7)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjprFmu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50334 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_50334.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxH7mOA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b539 /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/15 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_5b539.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/15/crtend.o /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -1406,8 +1406,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt"
-      binary: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt"
+      source: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0"
+      binary: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1417,17 +1417,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt'
+        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0'
         
-        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a8f1/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2a8f1.dir/build.make CMakeFiles/cmTC_2a8f1.dir/build
-        gmake[1]: 进入目录“/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt”
-        Building CXX object CMakeFiles/cmTC_2a8f1.dir/src.cxx.o
-        /usr/lib64/ccache/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_2a8f1.dir/src.cxx.o -c /home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt/src.cxx
-        Linking CXX executable cmTC_2a8f1
-        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a8f1.dir/link.txt --verbose=1
-        /usr/lib64/ccache/c++ CMakeFiles/cmTC_2a8f1.dir/src.cxx.o -o cmTC_2a8f1
-        gmake[1]: 离开目录“/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-sJIAtt”
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3297/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c3297.dir/build.make CMakeFiles/cmTC_c3297.dir/build
+        gmake[1]: 进入目录“/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0”
+        Building CXX object CMakeFiles/cmTC_c3297.dir/src.cxx.o
+        /usr/lib64/ccache/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_c3297.dir/src.cxx.o -c /home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0/src.cxx
+        Linking CXX executable cmTC_c3297
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3297.dir/link.txt --verbose=1
+        /usr/lib64/ccache/c++ CMakeFiles/cmTC_c3297.dir/src.cxx.o -o cmTC_c3297
+        gmake[1]: 离开目录“/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-bs0NF0”
         
       exitCode: 0
   -
@@ -1446,8 +1446,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2"
-      binary: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2"
+      source: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR"
+      binary: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1457,17 +1457,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2'
+        Change Dir: '/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR'
         
-        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ceaed/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ceaed.dir/build.make CMakeFiles/cmTC_ceaed.dir/build
-        gmake[1]: 进入目录“/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2”
-        Building CXX object CMakeFiles/cmTC_ceaed.dir/src.cxx.o
-        /usr/lib64/ccache/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_ceaed.dir/src.cxx.o -c /home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2/src.cxx
-        Linking CXX executable cmTC_ceaed
-        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceaed.dir/link.txt --verbose=1
-        /usr/lib64/ccache/c++ CMakeFiles/cmTC_ceaed.dir/src.cxx.o -o cmTC_ceaed
-        gmake[1]: 离开目录“/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/CMakeScratch/TryCompile-VeSCp2”
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0ef34/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0ef34.dir/build.make CMakeFiles/cmTC_0ef34.dir/build
+        gmake[1]: 进入目录“/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR”
+        Building CXX object CMakeFiles/cmTC_0ef34.dir/src.cxx.o
+        /usr/lib64/ccache/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_0ef34.dir/src.cxx.o -c /home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR/src.cxx
+        Linking CXX executable cmTC_0ef34
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ef34.dir/link.txt --verbose=1
+        /usr/lib64/ccache/c++ CMakeFiles/cmTC_0ef34.dir/src.cxx.o -o cmTC_0ef34
+        gmake[1]: 离开目录“/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/CMakeScratch/TryCompile-QJUUmR”
         
       exitCode: 0
   -
@@ -1515,11 +1515,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1658,11 +1658,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3555,11 +3555,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3709,11 +3709,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6dbustools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3860,11 +3860,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6DBusConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6dbus-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3955,11 +3955,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4056,11 +4056,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4199,11 +4199,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4294,11 +4294,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6network-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6network-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4364,6 +4364,10 @@ events:
         name: "Network"
         required: true
         found: false
+      -
+        name: "DBus"
+        required: true
+        found: false
     configs:
       -
         filename: "Qt6Config.cmake"
@@ -4395,11 +4399,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4782,200 +4786,6 @@ events:
       path: "/usr/lib64/cmake/Qt6/Qt6Config.cmake"
       mode: "config"
       version: "6.10.2"
-    search_context:
-      ENV{PATH}:
-        - "/home/linuxbrew/.linuxbrew/bin"
-        - "/home/linuxbrew/.linuxbrew/sbin"
-        - "/home/ader/.bun/bin"
-        - "/home/ader/.local/bin"
-        - "/home/linuxbrew/.linuxbrew/bin"
-        - "/home/linuxbrew/.linuxbrew/sbin"
-        - "/home/ader/.local/share/pnpm"
-        - "/home/ader/.config/nvm/versions/node/v25.2.1/bin"
-        - "/home/ader/.bun/bin"
-        - "/home/ader/.local/bin"
-        - "/usr/lib64/ccache"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/usr/local/sbin"
-        - "/usr/sbin"
-        - "/home/ader/.cargo/bin"
-        - "/home/ader/.cargo/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/home/linuxbrew/.linuxbrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_MODULE_PATH:
-        - "/usr/lib64/cmake/Qt6"
-        - "/usr/lib64/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
-        - "/usr/lib64/cmake/Qt6/3rdparty/kwin"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:12 (find_package)"
-    name: "KF6"
-    components:
-      -
-        name: "WindowSystem"
-        required: true
-        found: false
-    configs:
-      -
-        filename: "KF6Config.cmake"
-        kind: "cmake"
-      -
-        filename: "kf6-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "KF6"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/Projects/qt-ai-quike-assistant/rewrite/build/CMakeFiles/pkgRedirects/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/linuxbrew/.linuxbrew/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/linuxbrew/.linuxbrew/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.bun/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.bun/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.local/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.local/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.local/share/pnpm/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.local/share/pnpm/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.config/nvm/versions/node/v25.2.1/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.config/nvm/versions/node/v25.2.1/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib64/ccache/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib64/ccache/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/local/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib64/cmake/KF6QQC2DesktopStyle/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/lib64/cmake/KF6QQC2DesktopStyle/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/share/kf6/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/share/kf6/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.cargo/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ader/.cargo/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/lib64/cmake/KF6QQC2DesktopStyle/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/lib64/cmake/KF6QQC2DesktopStyle/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/KF6Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/kf6-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found: null
     search_context:
       ENV{PATH}:
         - "/home/linuxbrew/.linuxbrew/bin"

@@ -1,0 +1,9 @@
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/qt-ai-assistant.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/edit_cache.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/rebuild_cache.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/list_install_components.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/install.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/install/local.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/install/strip.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/qt-ai-assistant_autogen_timestamp_deps.dir
+/home/ader/Projects/qt-ai-quike-assistant/build/CMakeFiles/qt-ai-assistant_autogen.dir

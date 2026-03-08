@@ -108,6 +108,12 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     connect(&cm, &ConversationManager::conversationUpdated, this, [this](Conversation*){ updateHistoryList(); });
     connect(&cm, &ConversationManager::conversationDeleted, this, [this](const QString&){ updateHistoryList(); });
 
+    // Inactivity timer: return to history view after 3 minutes
+    m_inactivityTimer = new QTimer(this);
+    m_inactivityTimer->setSingleShot(true);
+    m_inactivityTimer->setInterval(3 * 60 * 1000); // 3 minutes
+    connect(m_inactivityTimer, &QTimer::timeout, this, &MainWindow::onBackToHistory);
+
     updateHistoryList();
     m_input->installEventFilter(this);
     m_historyWidget->installEventFilter(this);
@@ -148,12 +154,14 @@ QPixmap MainWindow::createModelIcon(int size) {
 }
 
 void MainWindow::toggleVisibility() {
-    if (isVisible()) {
+    if (isVisible() && !isMinimized() && isActiveWindow()) {
         hide();
+        m_inactivityTimer->stop();
     } else {
-        show();
+        showNormal();
         raise();
         activateWindow();
+        m_inactivityTimer->start(); // restart 3-min countdown on each show
         if (m_viewMode == History) {
             m_input->setFocus();
         } else {
@@ -309,6 +317,7 @@ void MainWindow::showChatView(Conversation *conv) {
 }
 
 void MainWindow::onBackToHistory() {
+    m_inactivityTimer->stop();
     m_viewMode = History;
     m_chatWidget->hide();
     m_headerWidget->show();

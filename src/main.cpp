@@ -6,6 +6,7 @@
 #include "ui/TrayIcon.h"
 #include "core/ConfigManager.h"
 #include "core/InstanceIpc.h"
+#include "core/GlobalShortcutPortal.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
@@ -35,6 +36,19 @@ int main(int argc, char *argv[]) {
     MainWindow mainWindow;
     TrayIcon trayIcon(&mainWindow);
 
+    // Register global shortcut via XDG Portal (instant, no process spawning)
+    GlobalShortcutPortal *portalShortcut = new GlobalShortcutPortal(&mainWindow);
+    QObject::connect(portalShortcut, &GlobalShortcutPortal::activated,
+                     &mainWindow, [&mainWindow](const QString &id) {
+        Q_UNUSED(id);
+        mainWindow.toggleVisibility();
+    });
+    portalShortcut->registerShortcut(
+        QStringLiteral("toggle-window"),
+        QStringLiteral("Toggle AI Assistant"),
+        QStringLiteral("super+space"));
+
+    // IPC fallback: second instance --toggle still works
     QObject::connect(&ipc, &InstanceIpc::messageReceived, &mainWindow, [&mainWindow](const QString &msg) {
         if (msg == "toggle") {
             mainWindow.toggleVisibility();

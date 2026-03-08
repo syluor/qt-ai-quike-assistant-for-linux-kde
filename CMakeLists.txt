@@ -17,6 +17,7 @@ add_executable(qt-ai-assistant
     src/core/ConversationManager.cpp
     src/core/LlmClient.cpp
     src/core/InstanceIpc.cpp
+    src/core/GlobalShortcutPortal.cpp
     src/ui/MainWindow.cpp
     src/ui/ChatWidget.cpp
     src/ui/TrayIcon.cpp

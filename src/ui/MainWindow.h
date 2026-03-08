@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTimer>
 #include <QPoint>
 #include <QMouseEvent>
 #include <QScrollArea>
@@ -50,6 +51,7 @@ private:
     ChatWidget *m_chatWidget;
     QPoint m_dragPosition;
     int m_focusIndex = 0; // 0 for input, 1-5 for history items
+    QTimer *m_inactivityTimer;
 };
 
 #endif // MAINWINDOW_H
