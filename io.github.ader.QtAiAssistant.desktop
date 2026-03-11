@@ -5,6 +5,7 @@ Comment=AI chat assistant with conversation history
 Exec=qt-ai-assistant %u
 Icon=io.github.ader.QtAiAssistant
 Terminal=false
+StartupNotify=false
 Categories=Utility;Chat;
 Actions=Toggle;
 X-KDE-Shortcuts=none

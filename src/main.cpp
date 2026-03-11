@@ -9,6 +9,9 @@
 #include "core/GlobalShortcutPortal.h"
 
 int main(int argc, char *argv[]) {
+    // 清除启动通知ID，防止鼠标旁出现跳动图标
+    qunsetenv("DESKTOP_STARTUP_ID");
+
     QApplication app(argc, argv);
     app.setQuitOnLastWindowClosed(false);
     app.setApplicationName("io.github.ader.QtAiAssistant");
